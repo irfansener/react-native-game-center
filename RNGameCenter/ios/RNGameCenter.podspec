@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.version             = package['version']
   s.summary             = package['description']
   s.description         = package['description']
-  s.homepage            = ""
+  s.homepage            = 'https://github.com/irfansener/react-native-game-center'
   s.license             = package['license']
   s.author              = package['author']
   s.source              = { :git => "https://github.com/garrettmac/RNGameCenter.git", :tag => s.version  }
